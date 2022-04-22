@@ -1,0 +1,254 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.head-fixed {
+    margin-top: 0;
+    position: fixed;
+    z-index: 2;
+    /* display: block; */
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #f7f7f7;
+    /* font-family: sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    color: #8d8989;
+    text-align: center;
+}
+
+h1,
+h2 {
+    /* color: #990011ff; */
+}
+
+header {
+    /* margin: 0; */
+    background-color: #f7f7f7;
+    margin-bottom: 2rem;
+    padding-bottom: 20px;
+    /* border: solid black 5px; */
+    padding-top: 20px;
+    margin-top: 10px;
+    display: block;
+    /* position: fixed;
+    z-index: 20; */
+}
+
+.top-container {
+    background-color: #fcf6f5ff;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 75px;
+}
+
+
+/* nav {
+    background-color: #f7f7f7;
+    position: fixed;
+    z-index: 20;
+} */
+
+nav a:link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #990011ff;
+    /* color: white; */
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+a:visited {
+    /* color: white; */
+    color: #990011ff;
+}
+
+.btn {
+    color: white;
+    background-color: #990011ff;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.h-three {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #990011ff;
+}
+
+footer {
+    background-color: #990011ff;
+    margin-top: 80px;
+    height: 200px;
+    position: relative;
+}
+
+footer a:link {
+    position: relative;
+    top: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f7f7f7;
+    margin-left: 30px;
+}
+
+footer a:link:hover {
+    /* position: relative;
+    top: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f7f7f7;
+    padding-left: 30px; */
+    background-color: white;
+    color: #990011ff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+footer section {
+    position: relative;
+    top: 150px;
+}
+
+article h3 {
+    padding-bottom: 80px;
+}
+
+nav a:link:hover {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #990011ff;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.mountain {
+    display: inline-block;
+}
+
+.cloud-two {
+    position: absolute;
+}
+
+.cloud-one {
+    position: relative;
+    left: 200px;
+}
+
+hr {
+    border-style: none;
+    border-top: 5px dotted #990011ff;
+    width: 20%;
+    margin-top: 80px;
+}
+
+article {
+    margin-top: 50px;
+    width: 50%;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.middle-container {
+    margin-top: 150px;
+    text-align: left;
+}
+
+.profile-image {
+    width: 220px;
+    border-radius: 50%;
+    float: left;
+}
+
+.middle-container h2 {
+    margin-top: 50px;
+}
+
+.bottom-container {
+    margin-top: 150px;
+}
+
+.profile-text {
+    /* margin-top: 50px; */
+    padding-top: 30px;
+}
+
+.man-one {
+    width: 220px;
+    border-radius: 50%;
+    float: right;
+}
+
+.move-skill-one {
+    /* padding-top: 30px; */
+    text-align: right;
+    /* margin-top: 5px; */
+    position: relative;
+    bottom: 40px;
+}
+
+.move-skill-one h3 {
+    padding-top: 30px;
+    /* text-align: right; */
+    /* margin-top: 5px; */
+    /* margin-bottom: 20px; */
+    margin: 0;
+    position: relative;
+    top: 50px;
+}
+
+.move-skill-one p {
+    /* padding-top: 30px; */
+    /* text-align: right; */
+    /* margin-top: 5px; */
+    /* margin-bottom: 20px; */
+    margin: 0;
+}
+
+.move-skill-two {
+    padding-top: 30px;
+    /* text-align: left; */
+    padding-left: 30px;
+    margin-left: 30px;
+}
+
+.move-skill-two h3 {
+    position: relative;
+    /* bottom: 80px; */
+    bottom: 10px;
+    text-align: left;
+}
+
+.move-skill-two p {
+    position: relative;
+    bottom: 80px;
+    text-align: left;
+}
+
+.space-one {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    padding-right: 30px;
+}
+
+.skill-two {
+    padding-top: 80px;
+}
+
+aside {
+    margin-top: 100px;
+}
